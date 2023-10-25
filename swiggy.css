@@ -1,0 +1,399 @@
+*{
+    margin:0;
+   font-family:Arial, Helvetica, sans-serif;
+   border:border-box;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns:50% 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    margin-top:80px;
+    margin-left:80px;
+    height:60px;
+    width:auto;
+}
+.img1{
+    height:auto;
+    width:100%;
+}
+.link1{
+    float:right;
+    margin-top:80px;
+    margin-right:50px;
+    height:13px;
+    width:13%;
+    text-decoration:none;
+    padding:20px;
+    color:white;
+    background-color:black;
+}
+.link2{
+    margin-top:80px;
+    float:right;
+    height:15px;
+    width:15%;
+    text-decoration:none;
+    padding:20px;
+    color:black;
+}
+.hungry{
+    margin-top:50px;
+    width:600px;
+    height:60px;
+    margin-left:90px;;
+}
+.hungry h1{
+    color:#282c3f;
+    font-size:35px;
+}
+.hungry p{
+    color:#686b78;
+    font-size: 22px;
+    margin-top:5px;
+    font-weight:0;
+}
+.mainsearchbar{
+  display:flex;
+    width:600px;
+    height:58px;
+    margin-top:20px;
+}
+.searchbar{
+    border:.5px solid orange;
+    color:#282c3f;
+    margin-top:28px;
+    margin-left:90px;
+    width:400px;
+    font-size:16px;
+    padding:5px;
+    height:45px;
+    font-weight: 600;
+}
+.mainsearchbar p{
+    color:#686b78;
+    margin-top: 50px;
+    margin-left:-90px;
+    font-size: 14px;
+    font-weight:600;
+}
+.mainsearchbar i{
+    color:#686b78;
+    margin-top: 50px;
+    margin-left:-95px;
+}
+.findfood{
+    width:140px;
+    height:57px;
+    margin-left:500px;
+    background-color: orange;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom:10px;
+}
+.findfood p{
+    padding:20px;
+font-size:16px;
+font-weight:700;
+color:white;
+}
+.findfood a{
+    text-decoration:none;
+    color:white;
+}
+.h3{
+    margin-top:30px;
+    height:15px;
+    width:100%;
+    margin-left:90px;
+    color:#A9abb2;
+    font-size:13px;
+    font-weight:300;
+
+}
+.statelist{
+   margin-left:40px;;
+    height:48px;
+    width:600px;
+}
+.statelist ul{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:20px;
+    color:#686b78;
+    font-size:16px;
+    margin-left:50px;
+    list-style-type:none;
+    font-weight:300;
+    margin-left:5px;
+}
+.color{
+    color:#93959f;
+}
+.layout2{
+    display:flex;
+    margin-top: -5px;
+    width:1519px;
+    height:403px;
+    background-color: #2b1e16;
+}
+.box1{
+    margin-left:140px;
+    width:360px;
+    height:323px;
+}
+.imagebox{
+    margin-left:40px;
+    width:260px;
+    height:250px;
+}
+.image1{
+    margin-left:20px;
+    width:105px;
+    height:199px;
+}
+.order{
+    margin-left:30px;
+    margin-top:0px;
+    color:#FFFFFF;
+}
+.note{
+    font-size:15px;
+    margin-top:10px;
+    color:#e0cbc1;
+    width:260px;
+}
+.layout3{
+    width:1519px;
+    height:570px;
+    background-color: white;
+}
+.googleplay{
+    width:1200px;
+    height:570px;
+}
+.restaurant{
+    font-size:20px;
+    color:#282c3f;
+    margin-top:150px;
+    margin-left:150px;
+    width:300px;
+    height:80px;
+}
+.fav{
+    font-size:20px;
+    margin-left:150px;
+    margin-top:30px;
+    height:128px;
+    width:400px;
+    color:#7e808c;
+}
+.images{
+  
+    width:1200px;
+    height:58px;
+}
+.images .img11{
+    margin-top:-50px;
+    margin-left:150px;
+    width:180px;
+    height:56px;
+}
+.images .img22{
+    margin-top:-50px;
+    margin-left:20px;
+    width:180px;
+    height:56px;
+}
+.phoneimage .img33{
+    width: 384px;
+    height: 489px;
+    margin-left: 711px;
+    margin-top: -447px;
+}
+.phoneimage .img44{
+        width: 384px;
+    height: 489px;
+    margin-left: 1074px;
+    margin-top: -261px;
+}
+.footer{
+    background-color: black;
+    text-indent:0cqmin;
+    color: white;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.foot-list{
+    height: 450px;
+    display: flex;
+    text-align: start;
+    justify-content: space-evenly;
+    padding-left: 114px;
+}
+
+.foot-list ul{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.foot-list ul p{
+    font-weight: 600;
+    margin-top: 15px;
+    color: #686b78;
+}
+
+.foot-list ul a{
+    display: block;
+    font-size: 17px;
+    margin-top: 15px;
+    color: #dddddd;
+    cursor: pointer;
+}
+
+.item3{
+    height: 56px;
+    width: 125px;
+    padding-top: 117px;
+    margin-right: 35px;
+}
+
+.deliver-list{
+    height: 600px;
+    display: flex;
+    margin-left: -43px;
+    justify-content: space-evenly;
+
+}
+
+.deliver-list ul{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.deliver-list ul p{
+    font-weight: 600;
+    margin-top: -15px;
+    color: #686b78;
+}
+
+.deliver-list ul a{
+    display: block;
+    font-size: 17px;
+    margin-top: 15px;
+    color: #dddddd;
+    cursor: pointer;
+}
+
+
+.cities-list{
+    color: white;
+    height: 550px;
+    text-align: start;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 112px;
+}
+
+.cities-list ul{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.cities-list ul p{
+    font-weight: 600;
+    margin-top: -20px;
+    color: #686b78;
+}
+
+.cities-list ul a{
+    display: block;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #dddddd;
+    cursor: pointer;
+}
+
+
+.cusines-list{
+    color: white;
+    height: 550px;
+    text-align: start;
+    padding-left: 106px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cusines-list ul{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.cusines-list ul p{
+    font-weight: 600;
+    margin-top: -20px;
+    color: #686b78;
+}
+
+.cusines-list ul a{
+    display: block;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #dddddd;
+    cursor: pointer;
+}
+
+.explore{
+    color: white;
+    height: 100px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: 106px;
+}
+.explore p{
+    font-weight: 600;
+    margin-top: 42px;
+    color: #686b78;
+    display: flex;
+}
+
+.explore ul{
+    margin-top: 25px;
+    
+}
+.explores{
+    margin-left: 599px;
+    
+}
+
+.footer-txt{
+    display: flex;
+    height: 100px;
+
+}
+
+.ft-img{
+    height: 40px;
+    width: 129px;
+    margin-left: 107px;
+    margin-top: 20px;
+}
+
+.footer-txt p{
+    margin-left: 238px;
+    font-size: 20px;
+    margin-top: 31px;
+    
+}
+
+.last-icon{
+    margin-left: 400px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.last-icon i{
+    margin-left: 10px;
+}
